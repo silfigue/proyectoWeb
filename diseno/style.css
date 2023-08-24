@@ -454,7 +454,7 @@ h3{
         background: #a6bf83;
     }/* Fin Estilos para tablets en Pagina "Nosotras" */
 }
-/*Estilos para pantallas portatiles y de escritorio*/
+
 @media (min-width:1286px) {
 header{
     text-align:left;
