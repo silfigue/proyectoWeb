@@ -188,7 +188,7 @@ h3{
     display: grid;
     grid-area: diente;
 } 
-/*________________________________Estilos Pagina "Nosotras"_____________________________________________*/
+/*________________________________Estilos para Pagina "Nosotras"_____________________________________________*/
 .inicial{
     margin: 0;
     padding: 0;
@@ -265,7 +265,6 @@ h3{
     border-radius: 0px 3px 3px 0px;
     background: #a6bf83;
     color: #fff;
-    cursor: pointer;
     outline: 0px;
 }
 /*Fin Estilos Pagina "Nosotras"*/
@@ -449,7 +448,6 @@ h3{
         border-radius: 0px 3px 3px 0px;
         background: #a6bf83;
         color: #fff;
-        cursor: pointer;
         outline: 0px;
     }
     .content-sub form .btn-sub:hover{
@@ -582,7 +580,6 @@ footer p {
     border-radius: 0px 3px 3px 0px;
     background: #a6bf83;
     color: #fff;
-    cursor: pointer;
     outline: 0px;
 }
 .content-sub form .btn-sub:hover{
