@@ -590,8 +590,8 @@ footer p {
 /*estilo para mapa*
 .map-container {
     position: relative;
-    width: 600px; /* Ajustar el ancho según tus necesidades */
-    height: auto; /* La altura se ajustará automáticamente según el ancho *
+    width: 600px; /* Ajustar el ancho según tus necesidades 
+    height: auto; /* La altura se ajustará automáticamente según el ancho 
   }
   
   .map-image {
@@ -640,8 +640,8 @@ footer p {
     top: 5px;
     right: 5px;
     font-size: 24px;
-    cursor: default; /* Asegura que el cursor sea el valor predeterminado */
-    z-index: 1; /* Asegúrate de que la cruz esté por encima del contenido del popup */
+    cursor: default; /* Asegura que el cursor sea el valor predeterminado 
+    z-index: 1; /* Asegúrate de que la cruz esté por encima del contenido del popup 
   }
   
   /* Estilos generales *
