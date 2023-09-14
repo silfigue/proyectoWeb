@@ -1,0 +1,110 @@
+.map-container {
+  position: relative;
+  width: 600px; /* Ajustar el ancho según tus necesidades */
+  height: auto; /* La altura se ajustará automáticamente según el ancho */
+}
+
+.map-image {
+  width: 55%;
+  height: auto;
+}
+
+.map-image:hover .province:hover {
+  background-color: rgba(255, 255, 0, 0.5); /* Cambiar el color de resaltado */
+}
+
+.province {
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Estilos para el popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup a {
+  display: block;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Estilos para la cruz de cierre */
+.cerrar {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px;
+  cursor: default; /* Asegura que el cursor sea el valor predeterminado */
+  z-index: 1; /* Asegúrate de que la cruz esté por encima del contenido del popup */
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #10af58;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Estilos para el contenido principal */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las imágenes */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #e76f51;
+  color: #fff;
+}
+
+body {
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #e76f51;
