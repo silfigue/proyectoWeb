@@ -587,11 +587,11 @@ footer p {
 }
 /* Fin Estilos para portatiles y de escritorio en Pagina "Nosotras" */
 }
-/*estilo para mapa*/
+/*estilo para mapa*
 .map-container {
     position: relative;
     width: 600px; /* Ajustar el ancho según tus necesidades */
-    height: auto; /* La altura se ajustará automáticamente según el ancho */
+    height: auto; /* La altura se ajustará automáticamente según el ancho *
   }
   
   .map-image {
@@ -600,7 +600,7 @@ footer p {
   }
   
   .map-image:hover .province:hover {
-    background-color: rgba(255, 255, 0, 0.5); /* Cambiar el color de resaltado */
+    background-color: rgba(255, 255, 0, 0.5); /* Cambiar el color de resaltado *
   }
   
   .province {
@@ -608,7 +608,7 @@ footer p {
     cursor: pointer;
   }
   
-  /* Estilos para el popup */
+  /* Estilos para el popup *
   .popup {
     display: none;
     position: fixed;
@@ -634,7 +634,7 @@ footer p {
     text-decoration: none;
   }
   
-  /* Estilos para la cruz de cierre */
+  /* Estilos para la cruz de cierre *
   .cerrar {
     position: absolute;
     top: 5px;
@@ -644,7 +644,7 @@ footer p {
     z-index: 1; /* Asegúrate de que la cruz esté por encima del contenido del popup */
   }
   
-  /* Estilos generales */
+  /* Estilos generales *
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -653,7 +653,7 @@ footer p {
     background-color: #f1f1f1;
   }
   
-  /* Estilos para el encabezado */
+  /* Estilos para el encabezado *
   header {
     background-color:#a6bf83;
     padding: 20px;
@@ -664,7 +664,7 @@ footer p {
     color: #333;
   }
   
-  /* Estilos para el contenido principal */
+  /* Estilos para el contenido principal *
   .container {
     max-width: 800px;
     margin: 20px auto;
@@ -674,7 +674,7 @@ footer p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Estilos para las imágenes */
+  /* Estilos para las imágenes *
   img {
     display: block;
     margin: 20px auto;
@@ -682,7 +682,7 @@ footer p {
   }
   
   
-  /* Estilos para el pie de página */
+  /* Estilos para el pie de página *
   footer {
     text-align: center;
     padding: 10px;
@@ -700,9 +700,9 @@ footer p {
       background-color:#a6bf83;
   
   }
-  /*estilo juego*/
+  /*estilo juego
   body{ 
-    background: #a6bf83;
+    /*background: #a6bf83;
     padding: 0;
     margin: 0;
     text-align: 0;

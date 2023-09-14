@@ -20,9 +20,8 @@ alert ("ud. contribuye con FLORA NATIVA, por $" + montoContribución)
 
 // Si ingresa AMBIENTE
 
-if (destino == "AMBIENTE")
-alert ("ud. contribuye con AMBIENTE, por $" + montoContribución)
-
-]else {
+if (destino == "AMBIENTE"){
+    alert ("ud. contribuye con AMBIENTE, por $" + montoContribución)
+}else {
     alert ("Te agradecemos tu interés")
 }
