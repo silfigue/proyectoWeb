@@ -1,46 +1,21 @@
 //donaciones de visitantes de la página web
-
-
-function contribucion(valor){
-    if (valor == "si"){
-        let montoContribución = prompt ("Ingrese el monto de su aporte")
-        console.log("el importe a donar es $"+ montoContribución)
-        let nombreYApellido = prompt ("ingrese su nombre y apellido")
-        console.log("su nombre y apellido es"+  nombreYApellido)
-        let destino = prompt ("Ingrese a dónde destina su aporte: FAUNA NATIVA - FLORA NATIVA - AMBIENTE")
+function contribucion(destino,monto,nombreYapellido){
         switch(destino) {
-            case "FAUNA NATIVA":alert ("ud. contribuye con FAUNA NATIVA, por $" + montoContribución);
+            case "FAUNA NATIVA":alert("Gracias " + nombreYapellido + "Usted contribuye con FAUNA NATIVA, por $" + monto)
             break;
-            case "FLORA NATIVA":alert ("ud. contribuye con FLORA NATIVA, por $" + montoContribución);
+            case "FLORA NATIVA":alert("Gracias " + nombreYapellido + "Usted contribuye con FLORA NATIVA, por $" + monto)
             break;
-            case "AMBIENTE ":alert ("ud. contribuye con AMBIENTE, por $" + montoContribución);
+            case "AMBIENTE":alert("Gracias "+ nombreYapellido + "Usted contribuye con AMBIENTE, por $" + monto)
             break;
-            default: alert ("Te agradecemos tu interés");
+            default:alert("Destino incorrecto");
             break;
         }
-    
-    }else{
-        console.log("Gracias igal por tu interes")
-    }
-
 }
-let contribución = prompt ("Tu contribución puede hacer la diferencia. ¿Nos Ayudas?")
-console.log(contribucion(contribución))
-
-//Si ingresa FAUNA NATIVA
-
-//if (destino == "FAUNA NATIVA")
-//alert ("ud. contribuye con FAUNA NATIVA, por $" + montoContribución)
-
-//Si ingresa FLORA NATIVA
-
-//if (destino == "FLORA NATIVA")
-//alert ("ud. contribuye con FLORA NATIVA, por $" + montoContribución)
-
-// Si ingresa AMBIENTE
-
-//if (destino == "AMBIENTE"){
-  //  alert ("ud. contribuye con AMBIENTE, por $" + montoContribución)
-//}else {
-  //  alert ("Te agradecemos tu interés")
-//}
+let ayuda = prompt ("Tu contribución puede hacer la diferencia. ¿Nos Ayudas?SI/NO")
+if(ayuda =="SI" || ayuda =="si"){
+  let monto = prompt ("Ingrese el monto de su aporte")
+  let nombreYapellido = prompt("ingrese su nombre y apellido")
+  let destino = prompt ("Ingrese a dónde destina su aporte: FAUNA NATIVA - FLORA NATIVA - AMBIENTE")
+  contribucion(destino,monto,nombreYapellido)
+}
+  alert("Gracias por su interes")
