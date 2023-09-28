@@ -134,12 +134,30 @@ h3{
     width: 30 px;
 }
 
+
+
+
+
+
+
+
+.contenedor{
+    display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.mundoyplantas{
+    display: grid;
+    
+}
 .emprendimientos{
     display: flex;
     width: 25% 25% 25% 25%;
     flex-direction: row;
     justify-content: space-evenly;
     padding-right: 10px;
+    gap: 20px;
 
 }
 
@@ -161,7 +179,10 @@ h3{
 .mundo{
     width:200px;
     padding-left: 500px;
+    
    }
+   
+
    
 .Neuquen{
     width: 150px;
