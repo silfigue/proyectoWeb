@@ -226,6 +226,80 @@ h3{
     display: grid;
     grid-area: diente;
 } 
+
+
+:root{
+    --color-acento: #5e5b5b
+    --color-acento-claro: #b7bbab
+    --color-texto: black
+}
+.compras{
+    text-decoration: none;
+    color: (--color-texto)
+}
+a :hover{
+    color: var(--color-acento)
+}
+#cuenta-carrito{
+    background-color: var(--color-acento);
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+}
+
+
+.contenedorCarrito{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50 px;
+    margin-bottom: 20px;
+}
+
+.precio{
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.carrito{
+    filter: (100%);
+    width: 45 px;
+    height: auto;
+}
+
+.contenedorCarrito>div{
+    box-shadow: 0px 0 px 5 px 0px #2d4263;
+    border-radius: 20px;
+}
+.contenedorCarrito>div:hover{
+    background-color: rgb(21, 128, 0);
+}
+
+.informacion{
+    height: 150 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15 px;
+}
+
+.informacion button{
+    background-color: #263143;
+    width: 10px;
+    height: 35;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
 /*________________________________Estilos para Pagina "Nosotras"_____________________________________________*/
 .inicial{
     margin: 0;
