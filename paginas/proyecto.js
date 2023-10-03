@@ -1,4 +1,5 @@
 //donaciones de visitantes de la página web
+/*
 function contribucion(destino,monto,nombreYapellido){
         switch(destino) {
             case "FAUNA NATIVA":alert("Gracias " + nombreYapellido + "Usted contribuye con FAUNA NATIVA, por $" + monto)

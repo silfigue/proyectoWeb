@@ -142,22 +142,33 @@ h3{
 
 
 .contenedor{
-    display:grid;
+  display:inline-flexbox;
   grid-template-columns: 1fr 1fr;
+  min-width: 100 vh;
+  justify-content: center;
 
 }
+.containerbtnnoti{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .mundoyplantas{
-    display: grid;
+    display: flex;
+    justify-content: center;
     
 }
 .emprendimientos{
     display: flex;
     width: 25% 25% 25% 25%;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:center;
     padding-right: 10px;
-    gap: 20px;
+    align-content: space-between;
+    gap: 30px;
 
 }
 
@@ -173,14 +184,20 @@ h3{
     padding: 15px;
     background-image: url(imagenes/Nuestralogofinal.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
     background-attachment: fixed;
 }
-.mundo{
+
+.giphy-embed{
+    background-position: right;
+}
+
+
+/*.mundo{
     width:200px;
     padding-left: 500px;
     
-   }
+   }*/
    
 
    
