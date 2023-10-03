@@ -1,15 +1,20 @@
- //const Formulario = {
+ //const Usuario = {
     //nombre:"Paula",
     //dni:"34804013",
    // email:"paula_s_89@hotmail.com",
     //pass: "123456"
-  //}
- //const FormularioJson=
-//  {
-  //  "name": "Paula" ,
+  //};
+ //const Json=const json = '{
+    //"name": "Paula" ,
     //"dni": "34804013",
     //"email":"paula_s_89@hotmail.com",
     //"pass" : "123456",
+      //}';
+
+ //const Usuario=JSON.parse(json)
+//  console.log(Usuario);
+  
+      
 
                      
  //}
@@ -20,6 +25,27 @@
 
     //localStorage.setItem('Bienvenida a Nuestra')
     //pass localStorage.setItem('esValido',true);
+
+    window.onload = () => {
+        let boton = document.querySelector("button");
+        localStorage.setItem("usuarioRegistrado")
+       let inputUsuario = document.getElementById("username").value;
+        if (inputUsuario == localStorage.getItem("usuarioRegistrado",true)) {
+        let p = document.createElement("p")
+
+        document.querySelector("p").innerText ="Ingreso con exito"
+        sessionStorage.setItem("sesionIniciada",true)
+        sessionStorage.setItem("username",inputUsuario)
+        console.log(sessionStorage);
+    }else{
+        let p = document.createElement("p")
+        p.innerText= "Intente de nuevo"
+        document.querySelector("form").appendChild(p)
+    }
+      
+    }
+
+       
 
 
  function tomarDatos(){
@@ -33,6 +59,13 @@
         parrafo.innerText="tu nombre,tu email ha sido registrado"
     }
  }
+
+//const emailInput = document.querySelector("input[name='email']");
+//const email = emailInput.value;
+
+//if (!validarEmail(email)) {
+  // Mostramos un mensaje de error
+  //alert("El correo electrónico no es válido");}
 
 
  
