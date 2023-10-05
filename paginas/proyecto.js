@@ -20,3 +20,4 @@ if(ayuda =="SI" || ayuda =="si"){
   contribucion(destino,monto,nombreYapellido)
 }
   alert("Gracias por su interes")
+*/
