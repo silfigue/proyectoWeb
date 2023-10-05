@@ -220,7 +220,29 @@ h3{
     grid-area: diente;
 } 
 
+section#productos{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1f;
+}
 
+section#productos article, section#carrito article{
+    border: 1px solid rgb(60, 186, 18) ;
+    border-radius: 50px;
+    border-width: 5px;
+    padding: 10px;
+    gap: 80%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#aporta{
+    padding: 30px;
+    content: 50px;
+    
+}
+/*
 :root{
     --color-acento: #5e5b5b
     --color-acento-claro: #b7bbab
