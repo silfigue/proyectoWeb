@@ -313,7 +313,7 @@ a :hover{
     font-size: large;
     color: #837f7f;
   }
-.newletter{
+ .newletter{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -497,8 +497,7 @@ a :hover{
         grid-template-rows: auto auto;
         grid-template-columns: repeat(2,50%);
       }
-    
-    .newletter{
+ .newletter{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -557,7 +556,8 @@ a :hover{
     }
     .content-sub form .btn-sub:hover{
         background: #a6bf83;
-    }/* Fin Estilos para tablets en Pagina "Nosotras" */
+    }
+    /* Fin Estilos para tablets en Pagina "Nosotras" */
 }
 
 @media (min-width:1286px) {

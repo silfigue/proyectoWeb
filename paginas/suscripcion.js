@@ -18,7 +18,7 @@
 
 //funcion que valida el campo email de una suscripcion
 window.onload = () => { //que cargue toda la pagina;
-	let formulario = document.querySelector("form");
+	//let formulario = document.querySelector("form");
     let emailField = document.getElementById('user-email');
   	let validEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/; //expresion regular
     let tex=document.getElementById('mensaje')
