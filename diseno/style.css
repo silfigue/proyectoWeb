@@ -128,7 +128,7 @@ footer p {
         align-items: flex-start;
         padding: 10px;
     }
-*/
+
 h3{
     padding-left: 5px;
     width: 30 px;
@@ -183,17 +183,7 @@ h3{
 
 .giphy-embed{
     background-position: right;
-}
-
-
-/*.mundo{
-    width:200px;
-    padding-left: 500px;
-    
-   }*/
-   
-
-   
+}   
 .Neuquen{
     width: 150px;
    }
@@ -376,6 +366,8 @@ a :hover{
     width: 100%;
     max-width: 440px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .content-sub form .campo{
     width: 100%;
@@ -558,6 +550,8 @@ a :hover{
         width: 100%;
         max-width: 440px;
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .content-sub form .campo{
         width: 100%;
@@ -687,10 +681,12 @@ footer p {
     max-width: 500px;
     text-align: center;
 }
-.content-sub form{
+.content-sub form{/*probando estilos por el parrafo*/
     width: 100%;
     max-width: 440px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .content-sub form .campo{
     width: 100%;
