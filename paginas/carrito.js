@@ -58,89 +58,40 @@ sectioncarrito.style.border = "2px solid red"
 )
 
 
+//window.onload = () => {
+   // let botones= document.querySelectorAll("button");
+        //botones [0].addEventListener ("click",() =>"{
+       //localStorage.setItem("productoTitulo",jsonConvertido[0],titulo)
+      // localStorage.setItem("productoPrecio",jsonConvertido[0],precio)
+   
+       //let article = document.createElement("article")
+   
+      // let h2 = document.createElement("h2")
+       //article.appendChild(h2)
+      // document.getElementById("carrito").appendChild(article)
+           
+   //})
+
+    
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- //const Usuario = {
-    //nombre:"Paula",
-    //dni:"34804013",
-   // email:"paula_s_89@hotmail.com",
-    //pass: "123456"
-  //};
- //const Json=const json = '{
-    //"name": "Paula" ,
-    //"dni": "34804013",
-    //"email":"paula_s_89@hotmail.com",
-    //"pass" : "123456",
-      //}';
 
- //const Usuario=JSON.parse(json)
-//  console.log(Usuario);
+ 
+
+
+
+
+
+
+
+ 
   
       
 
                      
- //}
- //let Usuario = { Nombre: ‘Paula’, dni: ‘34804013’,contraseña:‘123456’  };
-    //let datoConvertido = JSON.stringify(Usuario);
-    //console.log(datoConvertido)
-    // ‘{“Nombre”:”Paula”, “dni”:”123456”}’
-
-    //localStorage.setItem('Bienvenida a Nuestra')
-    //pass localStorage.setItem('esValido',true);
-
-    window.onload = () => {
-        let boton = document.querySelector("button");
-        localStorage.setItem("usuarioRegistrado")
-       let inputUsuario = document.getElementById("username").value;
-        if (inputUsuario == localStorage.getItem("usuarioRegistrado",true)) {
-        let p = document.createElement("p")
-
-        document.querySelector("p").innerText ="Ingreso con exito"
-        sessionStorage.setItem("sesionIniciada",true)
-        sessionStorage.setItem("username",inputUsuario)
-        console.log(sessionStorage);
-    }else{
-        let p = document.createElement("p")
-        p.innerText= "Intente de nuevo"
-        document.querySelector("form").appendChild(p)
-    }
-      
-    }
-
-       
 
 
- function tomarDatos(){
-    let nombre= document.getElementById("nombre").value;
-    let email= document.getElementById("email").value;
-    let mensaje=document.getElementById("mensaje").value;
-
-    console.log(nombre,email,mensaje);
-    if(nombre && email && mensaje){
-        let parrafo=document.createElement("p");
-        parrafo.innerText="tu nombre,tu email ha sido registrado"
-    }
- }
-
-//const emailInput = document.querySelector("input[name='email']");
-//const email = emailInput.value;
-
-//if (!validarEmail(email)) {
-  // Mostramos un mensaje de error
-  //alert("El correo electrónico no es válido");}
-
-
+    
  
 
 
