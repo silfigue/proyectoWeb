@@ -60,7 +60,7 @@ sectioncarrito.style.border = "2px solid red"
 
 //window.onload = () => {
    // let botones= document.querySelectorAll("button");
-        //botones [0].addEventListener ("click",() =>"{
+        //botones [0].addEventListener ("click",() =>{
        //localStorage.setItem("productoTitulo",jsonConvertido[0],titulo)
       // localStorage.setItem("productoPrecio",jsonConvertido[0],precio)
    
