@@ -242,8 +242,8 @@ h3{
 } 
 
 section#productos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1f;
+    display: flex ;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 section#productos article, section#carrito article{
@@ -251,11 +251,18 @@ section#productos article, section#carrito article{
     border-radius: 50px;
     border-width: 5px;
     padding: 10px;
-    gap: 80%;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-}
+    gap: 0px;
+    display: grid;
+    justify-content: left;
+    text-align:center;
+    width:200px;
+    height:200px;
+    object-fit: contain;
+    align-self: center;
+    
+    
+  }
+
 
 
 #aporta{
