@@ -3,17 +3,6 @@
     margin: 0;
 }
 
-header{
-    font-family: 'Roboto Slab', serif;
-    text-align:center;
-    padding: 5px;
-    background-color:#606c38;
-}
-.logo{
-    width: 42%;
-    margin:18px;  
-}
-
 h1{
     margin: 10px;
     padding: 5px;
