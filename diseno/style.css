@@ -270,6 +270,13 @@ section#productos article, section#carrito article{
     content: 50px;
     
 }
+
+label{
+    display: block;
+}
+input{
+    display: block;
+}
 /*
 :root{
     --color-acento: #5e5b5b

@@ -58,78 +58,9 @@ let jsonDeProductos = `[
     )
     
     
-    //window.onload = () => {
-       // let botones= document.querySelectorAll("button");
-            //botones [0].addEventListener ("click",() =>"{
-           //localStorage.setItem("productoTitulo",jsonConvertido[0],titulo)
-          // localStorage.setItem("productoPrecio",jsonConvertido[0],precio)
-       
-           //let article = document.createElement("article")
-       
-          // let h2 = document.createElement("h2")
-           //article.appendChild(h2)
-          // document.getElementById("carrito").appendChild(article)
-             
-       //})
+
     
-    
-    
-       //window.onload = () => {
-        //let botones= document.querySelectorAll("button")
-        //for(let i=0, i < botones.lenght;i++){
-          //botones[i].addEventListener("click", () =>)
-        //}
-    //}
-     
-    
-    
-    
-    //window.onload = () => {
         
-        //let jsonConvertido = [
-         // {
-           // "titulo": "Gorra de plantas",
-             /// "precio": "$12.999,99",
-          //},
-          //{
-            //"titulo": "Gorra de animales",
-             //"precio": "$12.999,99",
-          //},
-         //{"titulo": "Remera de plantas",
-          //"precio": "$32.999,99",
-        //},
-    
-          //{"titulo": "Remera de animales",
-          //"precio": "$32.999,99",
-        //}
-        //];
-        //let titulo = jsonConvertido[0].titulo;
-        //let precio = jsonConvertido[0].precio;
-      
-       
-        //let botones = document.querySelectorAll('button');
-      
-        
-        //botones[0].addEventListener('click', () => {
-          
-          //localStorage.setItem('productoTitulo', titulo);
-          //localStorage.setItem('productoPrecio', precio);
-      
-          // crear un articulo
-          //let article = document.createElement('article');
-      
-          // Create a h2 
-          //let h2 = document.createElement('h2');
-          //h2.textContent = titulo;
-          //article.appendChild(h2);
-      
-          
-          //document.getElementById('carrito').appendChild(article);
-        //});
-      //};
-    
-    
-    
     
     
     
