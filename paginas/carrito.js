@@ -51,13 +51,60 @@ let jsonDeProductos = `[
     document.getElementById("productos").appendChild(article)
     }
     
-    let sectioncarrito = document.getElementById ("carrito")
-    sectioncarrito.addEventListener ("focus", () => {
-    sectioncarrito.style.border = "2px solid red"
+    let inputNombre = document.getElementById ("name")
+    inputNombre.addEventListener ("blur", () => {
+    if (inputNombre.value ==""){
+    inputNombre.style.border = "2px solid red"
+    }else{
+    inputNombre.style.border = "0"
+    }
     }
     )
     
-    
+
+    let inputDni = document.getElementById ("dni")
+    inputDni.addEventListener ("blur", () => {
+    if (inputDni.value ==""){
+    inputDni.style.border = "2px solid red"
+    }else{
+    inputDni.style.border = "0"
+    }
+    }
+    )
+
+
+    let inputEmail = document.getElementById ("email")
+    inputEmail.addEventListener ("blur", () => {
+    if (inputEmail.value ==""){
+    inputEmail.style.border = "2px solid red"
+    }else{
+    inputEmail.style.border = "0"
+    }
+    }
+    )
+
+
+let inputPass = document.getElementById ("pass")
+    inputPass.addEventListener ("blur", () => {
+    if (inputPass.value ==""){
+    inputPass.style.border = "2px solid red"
+    }else{
+    inputPass.style.border = "0"
+    }
+    }
+    )
+
+
+    let inputRepeatPass = document.getElementById ("repeatPass")
+    inputRepeatPass.addEventListener ("blur", () => {
+    if (inputRepeatPass.value ==""){
+    inputRepeatPass.style.border = "2px solid red"
+    }else{
+    inputRepeatPass.style.border = "0"
+    }
+    }
+    )
+
 
     
         
