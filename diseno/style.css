@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.logo {
+        width: 1302 px;
+        height: 332 px;
+        background-image: url(proyectoFinal/proyectoWeb/diseno/imagenes/nuestraLogo2.png); 
+}
+
 h1{
     margin: 10px;
     padding: 5px;
@@ -424,10 +430,14 @@ a :hover{
 
 /*Inicio Estilos para pantallas de tablets*/
 @media (min-width:768px) { 
+    
+    /*
     .logo {
         width: 20%;  
         align-content: center;
     }
+
+    */
     h1{
         margin: 15px;
         padding: 5px;
@@ -611,13 +621,20 @@ a :hover{
 }
 
 @media (min-width:1286px) {
-header{
+
+/*
+    header{
     text-align:left;
 }
 .logo {
-    width: 15%; 
+    width: 1302 px;
+    height: 332 px;
     background-image: url(proyectoFinal/proyectoWeb/diseno/imagenes/nuestraLogo2.png); 
 }
+
+*/
+
+
 .bienvenida{
     width: auto;
 }
