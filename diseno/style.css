@@ -619,7 +619,8 @@ header{
     text-align:left;
 }
 .logo {
-    width: 15%;  
+    width: 15%; 
+    background-image: url(proyectoFinal/proyectoWeb/diseno/imagenes/nuestraLogo2.png); 
 }
 .bienvenida{
     width: auto;
