@@ -266,6 +266,7 @@ section#productos article, section#carrito article{
     
 }
 
+
 label{
     display: block;
 }
@@ -426,6 +427,8 @@ a :hover{
     color: #fff;
     outline: 0px;
 }
+
+
 /*Fin Estilos Pagina "Nosotras"*/
 
 /*Inicio Estilos para pantallas de tablets*/
@@ -761,7 +764,15 @@ footer p {
     background: #a6bf83;
 }
 /* Fin Estilos para portatiles y de escritorio en Pagina "Nosotras" */
+
 }
+
+.formulario {
+    padding: 15px 15px;
+
+}
+
+
 /*estilo para mapa*
 .map-container {
     position: relative;
