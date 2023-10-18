@@ -2,15 +2,16 @@
     padding: 0;
     margin: 0;
 }
-
-.logo {
-    width: 20%;
-    background-image: url(proyectoFinal/proyectoWeb/diseno/imagenes/Nuestralogofinal.png); 
-
-}
-
 header{
-    background-color: #FAEDCD;
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+    padding: 5px;
+    background-color:#606c38;
+}
+.logo {
+    width: 42%;
+    margin:18px;
+
 }
 
 h1{
@@ -38,7 +39,7 @@ nav a{
 
 body{
     font-family:'Roboto Slab', serif;
-    background-image: url(diseno/imagenes/fondo2.png);
+    background-image: url(../diseno/imagenes/nuestraFondo50.png);
     
 }
 .bienvenida{
@@ -202,14 +203,14 @@ h3{
 
 
 }
-.main{
+/*.main{
     text-align: center;
     padding: 15px;
-    background-image: url(imagenes/Nuestralogofinal.png);
+    /*background-image: url(imagenes/Nuestralogofinal.png);
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
-}
+}*/
 
 .giphy-embed{
     background-position: right;
