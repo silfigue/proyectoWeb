@@ -436,6 +436,90 @@ a :hover{
 
 /*Fin Estilos Pagina "Nosotras"*/
 
+/*Inicio Estilos formulario donacion*/
+.formulario{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-sub-form{
+    width: 100%;
+    height: 600px;
+    background: url("../diseno/imagenes/donardinero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-sub-form{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,22,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-sub-form h2{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 4px;
+}
+.content-sub-form p{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 25px;
+    max-width: 500px;
+    text-align: center;
+}
+.content-sub-form form{
+    width: 100%;
+    max-width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content-sub-form form .campo{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 13px;
+    /*border:none;*/
+    border-radius: 3px 0px 0px 3px;
+    outline: 0px;
+}
+.content-sub-form form fieldset{
+    display: block;
+
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 7.75em;
+    padding-inline-end: 8.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+.content-sub-form form label{
+    color: antiquewhite;
+}
+.content-sub-form form .btn-sub{
+    padding: 15px 25px;
+    border: none;
+    font-size: 15px;
+    border-radius: 7px 7px 7px 7px;
+    background: #a6bf83;
+    color: #fff;
+    outline: 0px;
+  
+}
+
+/* Fin  Estilos formulario donacion*/
+
 /*Inicio Estilos para pantallas de tablets*/
 @media (min-width:768px) { 
     
