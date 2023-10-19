@@ -203,14 +203,14 @@ h3{
 
 
 }
-/*.main{
+.main{
     text-align: center;
     padding: 15px;
-    /*background-image: url(imagenes/Nuestralogofinal.png);
+    background-image: url(imagenes/Nuestralogofinal.png);
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
-}*/
+}
 
 .giphy-embed{
     background-position: right;
