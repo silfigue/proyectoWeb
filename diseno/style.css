@@ -278,6 +278,25 @@ label{
 input{
     display: block;
 }
+#btn {
+    padding: 45px;
+    }
+    
+    .btnnoti {
+    display: inline-block;
+    background-color: #51e51f;
+    width: 55px;
+    height: 35;
+    padding: 24px 34px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    }
+
+
+
 /*
 :root{
     --color-acento: #5e5b5b
