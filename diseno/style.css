@@ -185,16 +185,7 @@ h3{
     justify-content: center;
     
 }
-.emprendimientos{
-    display: flex;
-    width: 25% 25% 25% 25%;
-    flex-direction: row;
-    justify-content:center;
-    padding-right: 10px;
-    align-content: space-between;
-    gap: 30px;
 
-}
 
 .nosorganizamos{
     display: flex;
@@ -203,14 +194,7 @@ h3{
 
 
 }
-.main{
-    text-align: center;
-    padding: 15px;
-    background-image: url(imagenes/Nuestralogofinal.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
-}
+
 
 .giphy-embed{
     background-position: right;
@@ -867,6 +851,27 @@ footer p {
 .content-sub form .btn-sub:hover{
     background: #a6bf83;
 }
+
+
+.main{
+    text-align: center;
+    padding: 15px;
+    background-image: url(imagenes/Nuestralogofinal.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+.emprendimientos{
+    display: flex;
+    width: 25% 25% 25% 25%;
+    flex-direction: row;
+    justify-content:center;
+    padding-right: 10px;
+    align-content: space-between;
+    gap: 30px;
+
+}
+
 /* Fin Estilos para portatiles y de escritorio en Pagina "Nosotras" */
 
 }
