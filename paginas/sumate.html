@@ -27,13 +27,32 @@
 </nav>
 
 <main>
-<h1> NUESTRA @PORTE </h1>
-<h2 id="aporta"> Aportá desde nuestro Shopping.</h2>
+<h1> NUESTRA SUM@TE </h1>
+
 <section id="productos"></section>
 <section id="carrito">
+    
+<h2 id="aporta"> Sumá, desde nuestro Shopping 
+    <img width="50" height="50"
+    src="../diseno/imagenes/gorraAnimal.jfif" alt="">
+    <img width="50" height="50"
+     src="../diseno/imagenes/gorraPlanta.jfif" alt="">
+    <img width="50" height="50"
+    src="../diseno/imagenes/remeraPlantas.jpg" alt="">
+    <img width="50" height="50"
+    src="../diseno/imagenes/remeraPlantas.jpg" alt="">
+
+</h2>  
 <h3>
-<img width=120 height= 80 src="../diseno/imagenes/carritoCompras.jpg" alt=""> Mi Carrito
+<img width=120 height= 80 src="../diseno/imagenes/carritoCompras.jpg" alt=""> 
 </h3>
+<ul id="listaCarrito"></ul>
+<button id="finalizarCompraBtn">Finalizar compra</button>
+
+
+
+
+
 </section>
 <section class="formulario">
     <div class="container-sub-form">
@@ -56,25 +75,38 @@
           </form>
       </div>
   </div>
+  <div>
+    <p class = "texto-aviso"></p>
+  </div>
   </section>
 
 <section class="instituciones">
 <h2> También podés colaborar desde estas instituciones amigas:</h2>
 
-<h3>Instituto de conservacion de ballenas</h3>
-<div>
-<a href="https://ballenas.org.ar/" style="color: #a8c082(0, 100%, 50%);">Adoptá una ballena</a>
-<p>El programa de adopción Ballena Franca Austral te permite apoyar la protección de las ballenas desde el lugar donde te encuentres. Sumándote, podrás contribuir con fondos que nos permiten dar continuidad a los estudios científicos claves para conocer el estado de salud de las ballenas, detectar amenazas y encontrar soluciones a los problemas que enfrentan en los océanos.Vos podés sumarte, eligiendo a una de las ballenas francas que seleccionamos entre más de 4.000 individuos que hemos identificado en las costas de Península Valdés desde 1970. Cada una refleja aspectos representativos de esta población. Cada una tiene su propia historia de vida, única y especial. </p>
-<img width=560 height= 315 src="../diseno/imagenes/ballena.jpg" alt="ballena">
+<div class="intitucion"></div>
+
+<h3 class="ballena"> Instituto de conservación de ballenas <button><a href="https://ballenas.org.ar/"class="btn-ballena">Adoptá una ballena</a></button>
+</h3>
+
+<div id="cont-ball">
+
+    
+    
+<p class="primerp" id="pballena"  >El programa de adopción Ballena Franca Austral te permite apoyar la protección de las ballenas desde el lugar donde te encuentres. Sumándote, podrás contribuir con fondos que nos permiten dar continuidad a los estudios científicos claves para conocer el estado de salud de las ballenas, detectar amenazas y encontrar soluciones a los problemas que enfrentan en los océanos.Vos podés sumarte, eligiendo a una de las ballenas francas que seleccionamos entre más de 4.000 individuos que hemos identificado en las costas de Península Valdés desde 1970. Cada una refleja aspectos representativos de esta población. Cada una tiene su propia historia de vida, única y especial. </p>
+<img width="100%" height= 290 src="../diseno/imagenes/ballena.jpg" alt="ballena">
 </div>
         
-<h3>Fundacion Redwilding</h3>
+<h3 class="ballena">Fundacion Redwilding  <button><a href="https://www.rewildingargentina.org/blog-respuesta-huemul/ "  style="color: #a8c082(0, 100%, 50%);" class="btn-rewilding" > Colaborá con Rewilding</a></button>
+</h3>
+
 <section class="huemul"> 
-<div>
-    <a href="https://www.rewildingargentina.org/blog-respuesta-huemul/ "  style="color: #a8c082(0, 100%, 50%);"> Colaborá con Rewilding</a>
-    <p>La fundación "Rewilding Argentina" tiene como objetivo revertir la crisis de extinción de especies, e impulsar economías locales restaurativas integradas a ecosistemas naturales completos y funcionales. Les une el compromiso por la recuperación de los ecosistemas naturales, el respeto por el valor intrínseco de todas las especies y el sueño de establecer modelos de desarrollo para las comunidades rurales en un contexto de coexistencia con la naturaleza.
+
+    <div id="cont-ball">
+ 
+
+    <p class="primerp" id="pballena" >La fundación "Rewilding Argentina" tiene como objetivo revertir la crisis de extinción de especies, e impulsar economías locales restaurativas integradas a ecosistemas naturales completos y funcionales. Les une el compromiso por la recuperación de los ecosistemas naturales, el respeto por el valor intrínseco de todas las especies y el sueño de establecer modelos de desarrollo para las comunidades rurales en un contexto de coexistencia con la naturaleza.
     </p>
-    <img width=560 height= 315 src="../diseno/imagenes/huemul2.jpeg" alt="huemul">
+    <img width= "210%" height= 290 src="../diseno/imagenes/huemul2.jpeg" alt="huemul">
     </div>
 </section>   
 <!--<section class="formulario">     
@@ -123,7 +155,10 @@
             <a href="https://www.youtube.com/"><img class="imagen" src="../diseno/imagenes/youtube_2.png" alt="logo de youtube"></a>
           </div>
       </footer>
-<script src="../paginas/carrito.js"></script>  
+
+<script src="../paginas/proyecto.js"></script>
+<script src="../paginas/carrito.js"></script>
+
 
 </body>
 </html>
