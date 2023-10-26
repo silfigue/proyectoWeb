@@ -198,6 +198,9 @@ h3{
 
 .giphy-embed{
     background-position: right;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }   
 .Neuquen{
     width: 150px;
@@ -231,30 +234,64 @@ section#productos{
 }
 
 section#productos article, section#carrito article{
-    border: 1px solid rgb(60, 186, 18) ;
-    border-radius: 50px;
+    border: 1px solid rgb(9, 52, 48) ;
+    border-radius: 0px;
     border-width: 5px;
+    margin: 10px;
     padding: 10px;
-    gap: 0px;
-    display: grid;
-    justify-content: left;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
     text-align:center;
-    width:200px;
-    height:200px;
+    width:250px;
+    height:350px;
     object-fit: contain;
     align-self: center;
-    
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+   
     
   }
 
-
+#aporta{
+    position: absolute;
+    left: 0;
+    animation: moverTitulo 20s linear infinite;
+    color: rgb(10, 107, 54);
+}
+@keyframes moverTitulo{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
 
 #aporta{
     padding: 30px;
     content: 50px;
     
 }
-
+.primerp{
+    margin: auto;
+    margin-top: 40px 40px;
+    text-align: center;
+}
+.ballena{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#publicidad{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 label{
     display: block;
@@ -267,17 +304,88 @@ input{
     }
     
     .btnnoti {
+        
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: inline-block;
-    background-color: #51e51f;
-    width: 55px;
-    height: 35;
+    background-color: #37b129;
+    color: rgb(23, 23, 127);
+    width: 120px;
+    height: 35px;
     padding: 24px 34px;
     border-radius: 10px;
     border: none;
     font-size: 17px;
     font-weight: 700;
     cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    transition: all 0.2s;
+    
     }
+    .btnnoti:hover {
+        transform: scale(1.1);
+        background-color: #27d7ae;
+    }
+
+#finalizarCompraBtn {
+    background-color: #37b129;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#finalizarCompraBtn:hover {
+    background-color: #27d7ae;
+
+}
+.btn-ballena {
+    background-color: #37b129;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.btn-ballena:hover {
+    background-color: #27d7ae;
+}
+
+.btn-rewilding {
+    background-color: #37b129;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.btn-rewilding:hover {
+    background-color: #27d7ae;
+}
+
+
+#cont-ball{
+    position: relative;
+}
+#pballena{
+    position: absolute;
+    top: 200px;
+    bottom: 5px;
+   //* background-color: rgba(255, 255,255,0.7);*//
+    padding: 10px;
+    color: white;
+    
+}
+
+
+
+
 
 
 
